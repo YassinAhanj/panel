@@ -1,0 +1,154 @@
+.hero_main_section{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10em;
+    margin-bottom: 0px;
+    position: relative;
+}
+.hero_section {
+    width: 37vw;
+    height: 41.5vw;
+    direction: rtl;
+    position: relative;
+    right: 15%;
+    top: 30%;
+}
+.hero_section h1 {
+    font-weight: 400;
+    font-size: 4vw;
+}
+.hero_section p {
+    font-weight: 400;
+    font-size: 1.85vw;
+    color: #3E3E3E;
+}
+.links_Of_hero{
+    margin-top: 1em;
+    display: flex;
+    gap: 1em;
+}
+.links_Of_hero a{
+    font-size: 2vw;
+    border-radius: 40px;
+    padding: 0 2.5vw;
+}
+.links_Of_hero a:first-child{
+    background: #E81A90;
+    color: #fff;
+}
+.links_Of_hero a:last-child{
+    background: transparent;
+    color: #2053E0;
+    border: #2053E0 2px solid;
+}
+.farazcart{
+    color: #2053E0;
+}
+.SmartFarazBack1{
+    position: absolute;
+    left: 0vw;
+    top: -11vw;
+    width: 40vw;
+    height: 51vw;
+}
+.SmartFarazBack2{
+    position: absolute;
+    left: 0vw;
+    top: -11vw;
+    width: 38vw;
+    height: 51vw;
+}
+.SmartFaraz{
+    position: absolute;
+    left: 1vw;
+    top: 1vw;
+    width: 42.5vw;
+    height: 28vw;
+}
+.Ellipse3{
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    top: -10.5vw;
+    left: 43vw;
+}
+.Ellipse4{
+    width: 13.5vw;
+    height: 13.5vw;
+    position: absolute;
+    top: 25vw;
+    left: 45vw;
+}
+.Ellipse5{
+    width: 2.5vw;
+    height: 2.5vw;
+    position: absolute;
+    top: 40vw;
+    left: 30vw;
+}
+.SmartFarazBack1_1, .SmartFarazBack1_2, .SmartFaraz2, .backHeroMob{
+    display: none;
+}
+@media (max-width: 768px) {
+    .SmartFarazBack2, .SmartFarazBack1, .SmartFaraz ,.Ellipse5, .Ellipse4{
+        display: none;
+    }
+    .SmartFarazBack1_1, .SmartFarazBack1_2, .SmartFaraz2{
+        display: inline;
+        position: absolute;
+        left: 0px;
+    }
+    .SmartFarazBack1_1{
+        width: 55vw;
+    }
+    .SmartFarazBack1_2{
+        width: 47vw;
+    }
+    .SmartFaraz2{
+        width: 75vw;
+    }
+    .hero_main_section{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-top: 150px;
+        position: relative;
+        padding: 0px 20px;
+    }
+    .hero_section {
+        width: 93vw;
+        height: 140vw;
+        direction: rtl;
+        position: relative;
+        right: 0%;
+        top: 0%;  
+    }
+    .hero_section h1, .farazcart {
+        font-weight: 400;
+        font-size: 8vw;
+        width: 90vw;
+    }
+    .hero_section p {
+        font-size: 5vw;
+        width: 90vw;
+    }
+    .links_Of_hero a{
+        font-size: 5vw;
+        border-radius: 40px;
+        padding: 0 6vw;
+    }
+    .Ellipse3{
+        left: 25vw;
+        top: 10vw;
+        width: 4vw;
+        height: 4vw;
+    }
+    .backHeroMob{
+        display: block;
+        position: absolute;
+        right: 0px;
+        bottom: -250px;
+        z-index: -1;
+    }
+}

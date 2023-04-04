@@ -1,0 +1,110 @@
+.ersal_section{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.ErsalTitle{
+    height: 8vw;
+    color: #2053E0;
+    font-size: 3.95vw;
+    line-height: 8vw;
+    font-weight: lighter;
+}
+.paragraphErsal{
+    color: #3E3E3E;
+    font-size: 2.25vw;
+    width: 29vw;
+    height: 8vw;
+    line-height: 2.5vw;
+    text-align: center;
+}
+.Ersalpng{
+    width: 42vw;
+    height: 25.5vw;
+}
+.ersal_Text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6.75vw;
+}
+.back2{
+    position: absolute;
+    left: 0px;
+    top: -52vw;
+    z-index: -1;
+    width: 52vw;
+}
+.Ellipse8{
+    position: absolute;
+    top: -30px;
+    top: -2.5vw;
+    left: 48vw;
+}
+.Ellipse9{
+    position: absolute;
+    top: 6vw;
+    left: 15vw;
+}
+.back2_2, .Ellipse9_2{
+    display: none;
+}
+@media (max-width: 768px){
+    .ersal_section{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center;
+    }
+    .ersal_Text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+    }
+    .ErsalTitle{
+        height: 14vw;
+        font-size: 7vw;
+        text-align: center;
+    }
+    .paragraphErsal{
+        font-size: 5.5vw;
+        text-align: center;
+        width: 90vw;
+        line-height: 5.5vw;
+    }
+    .Ersalpng{
+        width: 80vw;
+        height: 50vw;
+        margin-top: 50px;
+    }
+    .Ellipse9_2{
+        display: block;
+        position: absolute;
+        right: 10vw;
+        width: 10vw;
+        height: 10vw;
+    }
+    .Ellipse8{
+        position: absolute;
+        top: -30px;
+        top: -2.5vw;
+        left: 48vw;
+        display: none;
+    }
+    .back2_2{
+        display: block;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        z-index: -1;
+    }
+    .back2, .Ellipse9{
+        display: none;
+    }
+}

@@ -1,0 +1,108 @@
+.marginTopAlo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+    padding: 0px 4vw;
+    position: relative;
+}
+.AloText{
+    width: 45vw;
+    text-align: right;
+    padding-right: 5vw;
+}
+.titleAlo{
+    color: #4569b9;
+    font-weight: lighter;
+    font-size: 5vw;
+}
+.ContentAlo{
+    color: #404041;
+    font-size: 2.75vw;
+}
+.shot{
+    width: 33vw;
+    height: 33vw;
+    margin-left: 5vw; 
+}
+.numTelAlo{
+    color: #000000;
+    font-size: 4vw;
+    font-weight: lighter;
+    margin-right: 5vw;
+    line-height: 6vw;
+}
+.titleIconAlo{
+    color: #000000;
+    font-weight: lighter;
+    margin-right: 6.5vw;
+    font-size: 2.5vw;
+}
+.AloIcons{
+    margin-right: 5.5vw;
+}
+.AloIcon{
+    width: 3.5vw;
+    height: 3.5vw;
+    margin: 0px 0.5vw;
+}
+.Ellipse14{
+    position: absolute;
+    top: -2vw;
+    left: 35vw;
+}
+.logoFaraz{
+    position: absolute;
+    right: 2.5vw;
+    top: -9vw;
+    width: 9vw;
+    height: 4.5vw;
+}
+@media (max-width: 1023px) {
+    .Ellipse14, .logoFaraz{
+        display: none;
+    }
+    .marginTopAlo{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+       padding-top: 1vw;
+    }
+    .shot{
+        width: 70vw;
+        height: 50vw;
+        margin-left: 0vw; 
+    }
+    .AloText{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0vw;
+    }
+    .titleAlo{
+        font-size: 14vw;
+    
+    }
+    .ContentAlo{
+        color: #404041;
+        font-size: 7vw;
+        width: 90vw;
+        text-align: center;
+    }
+    .numTelAlo{
+        font-size: 8.5vw;
+        margin-right: 0vw;
+    }
+    .titleIconAlo{
+        margin-right: 0vw;
+        font-size: 7vw;
+    }
+    .AloIcons{
+        margin-right: 0vw;
+    }
+    .AloIcon{
+        width: 7vw;
+        height: 7vw;
+        margin: 2vw 2vw;
+    }
+}

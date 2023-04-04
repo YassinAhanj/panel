@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "IRANSans";
+    src: url(../../../public/Fonts/IRANSans.ttf);
+}
+
+
+
+
+.Ellipse20{
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    left: -2.5vw;
+    bottom: 2vw;
+    z-index: -1;
+}
+.DashboardNavbar,
+.linksDashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: IRANSans;
+}
+
+.DashboardNavbar img {
+    margin: 3vw 0vw;
+}
+
+.DashboardNavbar {
+    background: linear-gradient(180deg, #2051DB 0%, #E81A90 100%);
+    border-radius: 20px;
+    width: 20vw;
+    height: 80vh;
+    position: relative;
+    margin: 0vw 7vw;
+}
+
+.farazCartPhotoDashboard {
+    width: 7vw;
+    height: 3.5vw;
+}
+
+.linksDashboard {
+    align-items: end;
+}
+
+.linkDashboard {
+    display: flex;
+    align-items: center;
+    height: 2.5vw;
+    margin-bottom: 1vw;
+}
+
+.linkDashboardEdit::after {
+    content: "";
+    width: 0.5vw;
+    height: 2.5vw;
+    border-radius: 5vw;
+    background: #E9B000;
+    position: absolute;
+    right: 0vw;
+}
+.linkDashboard img {
+    width: 1.75vw;
+    height: 1.75vw;
+    margin: 0px 0px 0px 15px;
+}
+
+.linkDashboard a {
+    font-size: 1.25vw;
+    color: #fff;
+}
+
+.logoutDiv {
+    position: absolute;
+    bottom: 0px;
+}
+.logoutDiv a{
+    font-size: 1vw;
+}
+.linkDashboardEdit a {
+    color: #E9B000;
+}
+@media (max-width: 1023px) {
+    .Ellipse19, .DashboardNavbar {
+        display: none ;
+    }
+}

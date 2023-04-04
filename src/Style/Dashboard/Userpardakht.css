@@ -1,0 +1,174 @@
+.UserpardakhtPage {
+    width: 100vw;
+    display: flex;
+    justify-content: right;
+    margin-top: 2vw;
+    position: relative;
+
+}
+
+.Ellipse21_2{
+    position: absolute;
+    bottom: 0vw;
+    left: 0px;
+}
+.back9_2{
+    display: none;
+}
+.back8_2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    z-index: -1;
+}
+.UserpardakhtPageContent {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    direction: rtl;
+    width: 50vw;
+    height: 45vw;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 0px #0000001A;
+    border-radius: 20px;
+    font-family: IRANSans;
+    padding-bottom: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+}
+
+.levelsUserpardakhtPage {
+    display: flex;
+    width: 25vw;
+    margin-top: 1vw;
+    justify-content: space-evenly;
+    margin-bottom: 1vw;
+}
+
+.levelsUserpardakhtPage img {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.banerUserpardakhtPage {
+    width: 35vw;
+    height: 20vw;
+    border-radius: 8px;
+}
+
+.formUserpardakhtPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*  */
+
+.UserpardakhtPageText,
+.discountCode {
+    width: 22vw;
+    height: 2.75vw;
+    box-shadow: 0px 0px 12px 0px #DADADACC;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px 8px;
+    font-size: 1.15vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #363636;
+    margin: 1vw 0vw;
+
+}
+
+.discountCode input {
+    height: 2.75vw;
+    font-size: 1.15vw;
+}
+
+
+
+.confirmAndPay {
+    width: 12vw;
+    height: 3vw;
+    background-color: #2051DB;
+    box-shadow: 0px 0px 8px 0px #939393;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width: 1023px) {
+
+    .UserpardakhtPage {
+        justify-content: center;
+        margin-top: 20px;
+        padding-bottom: 5vw;
+
+    }
+
+    .UserpardakhtPageContent {
+
+        width: 90vw;
+        height: 130vw;
+        border-radius: 20px;
+        font-family: IRANSans;
+        padding-bottom: 1vw;
+        margin-top: 2vw;
+        margin-bottom: 5vw;
+    }
+
+
+    .levelsUserpardakhtPage {
+        width: 70vw;
+        margin-top: 1vw;
+        justify-content: space-evenly;
+        margin: 7vw 0vw;
+    }
+
+    .levelsUserpardakhtPage img {
+        width: 8vw;
+        height: 8vw;
+    }
+
+
+    .banerUserpardakhtPage {
+        width: 85vw;
+        height: 45vw;
+    }
+
+    .UserpardakhtPageText,
+    .discountCode {
+        width: 75vw;
+        height: 10vw;
+        font-size: 4.5vw;
+        margin-top: 8vw;
+        margin-bottom: 0vw;
+
+    }
+
+    .discountCode input {
+        width: 65vw;
+        height: 10vw;
+        font-size: 4.5vw;
+    }
+
+
+    .confirmAndPay {
+        width: 30vw;
+        height: 8vw;
+        font-size: 5vw;
+        margin-top: 7vw;
+    }
+
+
+}

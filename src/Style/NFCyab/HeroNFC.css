@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "IRANSans";
+    src: url(../../../public/Fonts/IRANSans.ttf);
+}
+@font-face {
+    font-family: "Aviny";
+    src: url(../../../public/Fonts/Aviny.ttf);
+}
+.ContentNFC {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.titleNTC {
+    color: #2053e0;
+    font-weight: 500;
+    text-align: center;
+    font-size: 5vw;
+}
+.DescriptionNFC1 {
+    color: #000000;
+    font-weight: lighter;
+    font-family: IRANSans;
+    text-align: center;
+    font-size: 3vw;
+}
+.DescriptionNFC2 {
+    color: #929497;
+    font-family: IRANSans;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.75vw;
+}
+.NFCblue {
+    color: #1234b2;
+}
+.DescriptionNFC3 {
+    margin-top: 2vw;
+    color: #58595b;
+    width: 70vw;
+    text-align: center;
+    font-size: 2vw;
+}
+.inputNFC {
+    margin-top: 2vw;
+    width: 52vw;
+    height: 5vw;
+    text-align: right;
+    border-radius: 5vw;
+    border: 2px solid #223f99;
+    background-color: #e6e7e8;
+    color: #58595b;
+    font-size: 2vw;
+    font-family: Aviny;
+    padding: 0px 15px;
+    outline: none;
+}
+.logoFaraz{
+    position: absolute;
+    right: 2.5vw;
+    top: -9vw;
+    width: 9vw;
+    height: 4.5vw;
+}
+@media (max-width: 1023px) {
+    .titleNTC {
+        font-size: 15vw;
+    }
+    .DescriptionNFC1 {
+        font-size: 6.5vw;
+    }
+    .DescriptionNFC2 {
+        font-size: 4vw;
+    }
+
+    .DescriptionNFC3 {
+        font-size: 4vw;
+    }
+    .inputNFC {
+        margin-top: 2vw;
+        width: 80vw;
+        height: 9vw;
+        font-size: 4.5vw;
+    }
+    .logoFaraz{
+        display: none;
+    }
+}

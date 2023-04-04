@@ -1,0 +1,193 @@
+@font-face {
+    font-family: "IRANSans";
+    src: url(../../../public/Fonts/IRANSans.ttf);
+}
+.back8{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    z-index: -1;
+}
+
+.back9{
+    display: none;
+}
+.Ellipse21{
+    position: absolute;
+    bottom: 0vw;
+    left: 0px;
+}
+
+.UserBuyPage{
+    display: flex;
+    width: 100vw;
+    justify-content: right;
+    min-height: 100vh;
+    margin-top: 50px;
+    padding-bottom: 5vw;
+    
+}
+
+.UserBuyPageContent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    direction: rtl;
+    width: 50vw;
+    height: 45vw;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 0px #0000001A;
+    border-radius: 20px;
+    font-family: IRANSans;
+    padding-bottom: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+}
+.levelsUserBuyPage{
+    display: flex;
+    width: 25vw;
+    margin-top: 1vw;
+    justify-content: space-evenly;
+    margin-bottom: 1vw;
+}
+.levelsUserBuyPage img{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.banerUserBuyPage{
+    width: 35vw;
+    height: 20vw;
+    border-radius: 8px;
+}
+.formUserBuyPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+}
+
+.formUserBuyPage label{
+    font-size: 1.25vw;
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
+    width: 22vw;
+}
+
+.formUserBuyPage input{
+    width: 22vw;
+    height: 2.75vw;
+    box-shadow: 0px 0px 12px 0px #DADADACC;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px 8px;
+    font-size: 1.15vw;
+    transition: 0.5s;
+}
+
+.formUserBuyPage input:focus{
+    border: 1px solid #ECF4FF;
+    outline: none;
+    box-shadow: 0px 0px 12px 0px #9D2EAC;
+    transform: scale(1.03);
+}
+
+
+
+.formUserBuyPage span{
+    font-size: 1vw;
+    text-align: center;
+    margin: 1.5vw 0vw;
+}
+
+
+.buttonUserBuyPage{
+    width:12vw;
+    height: 3vw;
+    background-color: #2051DB;
+    box-shadow: 0px 0px 8px 0px #939393;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 1023px) {
+    .back8, .Ellipse21, .Ellipse19_2{
+        display: none;
+    }
+    .UserBuyPage{
+        justify-content: center;
+        margin-top: 20px;
+    padding-bottom: 5vw;
+        
+    }
+    .UserBuyPageContent{
+        width: 90vw;
+        height: 130vw;
+        border-radius: 20px;
+        font-family: IRANSans;
+        padding-bottom: 1vw;
+        margin-top: 2vw;
+        margin-bottom: 5vw;
+    }
+
+    .levelsUserBuyPage{
+        display: flex;
+        width: 70vw;
+        margin-top: 1vw;
+        justify-content: space-between;
+        margin: 7vw 0vw;
+    }
+    .levelsUserBuyPage img{
+        width: 8vw;
+        height: 8vw;
+    }
+    
+
+    .banerUserBuyPage{
+        width: 85vw;
+        height: 45vw;
+    }
+
+    .formUserBuyPage{
+        width: 55vw;
+    }
+    .formUserBuyPage label{
+        font-size: 5vw;
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+        width: 65vw;
+    }
+
+    .formUserBuyPage input{
+        width: 65vw;
+        height: 8.5vw;
+        font-size: 4.5vw;
+    }
+    
+    .formUserBuyPage span{
+        font-size: 3.5vw;
+        text-align: center;
+        margin: 3vw 0vw;
+    }
+    
+    .buttonUserBuyPage{
+        width:30vw;
+        height: 8vw;
+        font-size: 5vw;
+    }
+    
+
+
+
+
+
+
+}

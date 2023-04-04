@@ -1,0 +1,99 @@
+.nazarat_section {
+    margin-top: 40vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.back4 {
+    position: absolute;
+    top: -31vw;
+    left: 0px;
+    z-index: -1;
+    width: 52vw;
+    height: 83vw;
+}
+.Ellipse13 {
+    position: absolute;
+    bottom: -2.5vw;
+    right: 10vw;
+    z-index: -1;
+    width: 4vw;
+    height: 4vw;
+}
+.titleNazarat h2 {
+    font-size: 3.25vw;
+    line-height: 8vw;
+    font-weight: lighter;
+    color: #212121;
+    margin-bottom: 40px;
+}
+.Comments {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.Comment {
+    text-align: right;
+    width: 28vw;
+    min-height: 15vw;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px 0px #A8A8A826;
+    padding: 20px;
+    background-color: #fff;
+}
+.Comment span {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 2vw;
+    line-height: 2vw;
+    color: #0044FF;
+}
+.profileComment {
+    margin-left: 1vw;
+    width: 3.5vw;
+    height: 3.5vw;
+}
+.Comment p {
+    text-align: right;
+    margin-top: 5px;
+    font-size: 1.35vw;
+    line-height: 20.14px;
+    line-height: 1.75vw;
+    color: #000000;
+}
+.back4_2,
+.Ellipse13_2 {
+    display: none;
+}
+@media (max-width: 768px) {
+    .back4,
+    .Ellipse13 {
+        display: none;
+    }
+    .back4_2 {
+        display: inline;
+        position: absolute;
+        z-index: -1;
+        right: 0px;
+        bottom: -300px;
+    }
+    .Comments {
+        display: none;
+    }
+    .nazarat_section {
+        margin-top: 55vw;
+    }
+    .titleNazarat h2 {
+        font-size: 7vw;
+    }
+    .Ellipse13_2 {
+        display: inline;
+        position: absolute;
+        left: 10vw;
+        top: -20vw;
+    }
+}
